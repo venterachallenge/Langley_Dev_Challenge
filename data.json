@@ -1,0 +1,50 @@
+[
+    {
+        "date": "10-10-2018",
+        "vendor": "Acme",
+        "customer": {
+            "id": 123,
+            "name": "Egon"
+        },
+        "order": {
+            "ice": {
+                "quantity": 1,
+                "price": 1.5
+            },
+            "punch": {
+                "quantity": 4,
+                "price": 4
+            },
+            "hat":  {
+                "quantity": 3,
+                "price": 12
+            },
+            "candy": {
+                "quantity": 3,
+                "price": 4.50
+            }
+        }
+    },
+    {
+        "date": "10-10-2018",
+        "vendor": "Acme",
+        "customer": {
+            "id": 123,
+            "name": "Egon"
+        },
+        "order": {
+            "ice": {
+                "quantity": 1,
+                "price": 1
+            },
+            "punch": {
+                "quantity": 4,
+                "price": 4
+            },
+            "hat":  {
+                "quantity": 3,
+                "price": 12
+            }
+        }
+    }
+]
