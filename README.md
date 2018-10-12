@@ -1,6 +1,6 @@
 # Good Title Goes Here
 
-Your team's client has just acquired a new company and has some oddly specific questions about their recent sales. Your team was given a file, included in this repo as `data.json`, that contains some dummy data from the inventory system of the new company. Your team must develop a script or application that can answer the following:
+Your team's client has just acquired a new company and has some questions about their recent sales. Your team was given a file, included in this repo as `data.json`, that contains some dummy data from the inventory system of the new company. Your team must develop a script or application that can answer the following:
 
 1. Total revenue (sum of quantity times price of all items)
 1. Vendor with the most revenue
@@ -15,7 +15,8 @@ Your team quickly realized the data structure is not particularly convenient to 
     "vendor": "example",
     "customer": {
         "id": 321,
-        "name": "John Doe"
+        "name": "John Doe",
+        "address": "123 some st"
     },
     "order": {
         "foo": {
@@ -62,7 +63,3 @@ You are expected to complete one or both of the stories. A version of `data.json
 
 ## Evaluation Criteria
 Your solution will be evaluated on the accuracy of the solution and the maintainability of the code first and foremost. Keep in mind you are working on a team and others will be extending this code in the future as requirements change.
-
-## Submission Instructions
-Clone this repo to your local environment and add your work to it. Replace this README with instructions on how to setup and run the solution as well as a description of the problem being solved and any assumptions.
-After committing all work to the `master` branch run the command: `git archive -o ventera-dev-challenge.tar.gz --format=tar.gz master` and submit the file that is produced (ventera-dev-challenge.tar.gz) to ____
