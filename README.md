@@ -1,4 +1,4 @@
-# Good Title Goes Here
+# Ventera Developer Challenge
 
 Your team's client has just acquired a new company and has some questions about their recent sales. Your team was given a file, included in this repo as `data.json`, that contains some dummy data from the inventory system of the new company. Your team must develop a script or application that can answer the following:
 
